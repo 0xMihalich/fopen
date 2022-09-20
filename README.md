@@ -8,7 +8,7 @@ class for work with files, BytesIO and block devices (removable devices) such as
 Написан для Python 3.*, зависит от io, pywintypes, struct, win32file, winioctlcon, wmi
 
 
->>> from fonen impoer fopen
+>>> from fonen import fopen
 >>> 
 >>> test = fopen("\\\\.\\PHYSICALDRIVE5", "wb")
 >>> 
